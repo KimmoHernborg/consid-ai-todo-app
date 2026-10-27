@@ -8,7 +8,7 @@ A simple task list that runs in the browser and saves tasks locally.
 
 ## What it does
 
-Add and delete tasks. Everything is saved to localStorage, so your tasks are still there when you reload the page.
+Add and delete tasks, and tick them off as done. Done tasks are shown struck through at the bottom of the list and can be unticked again. A counter above the list shows how many tasks are left. Everything is saved to localStorage, so your tasks are still there when you reload the page.
 
 ---
 
