@@ -67,6 +67,12 @@ button[type="submit"]:hover {
   background: #4338ca;
 }
 
+#task-counter {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-bottom: 0.75rem;
+}
+
 #task-list {
   list-style: none;
   display: flex;
@@ -84,9 +90,23 @@ button[type="submit"]:hover {
   border-radius: 8px;
 }
 
+.task-checkbox {
+  flex-shrink: 0;
+  width: 1.125rem;
+  height: 1.125rem;
+  accent-color: #4f46e5;
+  cursor: pointer;
+}
+
 .task-text {
   flex: 1;
   font-size: 1rem;
+  overflow-wrap: anywhere;
+}
+
+.task-item--done .task-text {
+  text-decoration: line-through;
+  color: #6b7280;
 }
 
 .delete-btn {
