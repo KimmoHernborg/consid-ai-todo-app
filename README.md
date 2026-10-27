@@ -43,11 +43,11 @@ npx serve .
 
 ## Tech stack
 
-| Component | Choice | Reason |
-|-----------|--------|--------|
-| Frontend | Vanilla JS | No build step, easy to understand and modify |
-| Storage | localStorage | No backend needed |
-| Hosting | GitHub Pages | Free, automatic deployment via CI/CD |
+| Component | Choice       | Reason                                       |
+| --------- | ------------ | -------------------------------------------- |
+| Frontend  | Vanilla JS   | No build step, easy to understand and modify |
+| Storage   | localStorage | No backend needed                            |
+| Hosting   | GitHub Pages | Free, automatic deployment via CI/CD         |
 
 ---
 
