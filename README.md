@@ -2,7 +2,7 @@
 
 A simple task list that runs in the browser and saves tasks locally.
 
-**Live:** [add URL after deploying to GitHub Pages]
+**Live:** https://kimmohernborg.github.io/consid-ai-todo-app/
 
 ---
 
