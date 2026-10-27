@@ -22,8 +22,8 @@ Add and delete tasks. Everything is saved to localStorage, so your tasks are sti
 ### Installation
 
 ```bash
-git clone https://github.com/[your-username]/task-list
-cd task-list
+git clone https://github.com/KimmoHernborg/consid-ai-todo-app/
+cd consid-ai-todo-app
 npm install
 ```
 
