@@ -17,7 +17,7 @@ Add and delete tasks, and tick them off as done. Done tasks are shown struck thr
 ### Requirements
 
 - A browser (Chrome, Firefox, Safari or Edge)
-- Node.js 18+ (to run linting locally)
+- Node.js 22+ (to run linting and tests locally)
 
 ### Installation
 
@@ -39,6 +39,16 @@ Open `index.html` directly in your browser. Or start a local server:
 npx serve .
 ```
 
+### Running tests
+
+The tests use Node's built-in test runner and load the app in [jsdom](https://github.com/jsdom/jsdom), so no browser is needed:
+
+```bash
+npm test
+```
+
+CI runs linting and tests on every push to `main` and on pull requests.
+
 ---
 
 ## Tech stack
@@ -47,6 +57,7 @@ npx serve .
 | --------- | ------------ | -------------------------------------------- |
 | Frontend  | Vanilla JS   | No build step, easy to understand and modify |
 | Storage   | localStorage | No backend needed                            |
+| Testing   | node:test    | Built into Node, no test framework needed    |
 | Hosting   | GitHub Pages | Free, automatic deployment via CI/CD         |
 
 ---
