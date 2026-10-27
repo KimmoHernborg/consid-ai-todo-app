@@ -1,5 +1,7 @@
 # Task List
 
+[![CI and Pages](https://github.com/KimmoHernborg/consid-ai-todo-app/actions/workflows/pages.yml/badge.svg?branch=main)](https://github.com/KimmoHernborg/consid-ai-todo-app/actions/workflows/pages.yml)
+
 A simple task list that runs in the browser and saves tasks locally.
 
 **Live:** https://kimmohernborg.github.io/consid-ai-todo-app/
